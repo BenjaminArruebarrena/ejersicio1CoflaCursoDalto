@@ -43,4 +43,57 @@ else if (dineroCofla >= 2.9) {
     alert('lo siento no tienes suficiente dinero')
 }
 dineroRoberto = prompt('cuanto dinero tienes Roberto?');
+
+if (dineroRoberto >= 0.6 && dineroRoberto < 1){
+    alert('comprate el elado de agua')
+}
+
+else if (dineroRoberto >= 1 && dineroRoberto < 1.6) {
+    alert('comprate el helado de crema')
+}
+
+else if (dineroRoberto >= 1.6 && dineroRoberto < 1.7) {
+    alert('comprate el helado heladix')
+}
+
+else if (dineroRoberto >= 1.7 && dineroRoberto < 1.8) {
+    alert('comprate el helado heladovix')
+}
+
+else if (dineroRoberto >= 1.8 && dineroRoberto < 2.9) {
+    alert('comprate el helado helardo')
+}
+
+else if (dineroRoberto >= 2.9) {
+    alert('comprate el helado de confites o el helado de 1/4 kg')
+} else {
+    alert('lo siento no tienes suficiente dinero')
+}
+
 dineroPedro = prompt('cuanto dinero tienes pedro?');
+
+if (dineroPedro >= 0.6 && dineroPedro < 1){
+    alert('comprate el elado de agua')
+}
+
+else if (dineroPedro >= 1 && dineroPedro < 1.6) {
+    alert('comprate el helado de crema')
+}
+
+else if (dineroPedro >= 1.6 && dineroPedro < 1.7) {
+    alert('comprate el helado heladix')
+}
+
+else if (dineroPedro >= 1.7 && dineroPedro < 1.8) {
+    alert('comprate el helado heladovix')
+}
+
+else if (dineroPedro >= 1.8 && dineroPedro < 2.9) {
+    alert('comprate el helado helardo')
+}
+
+else if (dineroPedro >= 2.9) {
+    alert('comprate el helado de confites o el helado de 1/4 kg')
+} else {
+    alert('lo siento no tienes suficiente dinero')
+}
